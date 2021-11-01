@@ -185,7 +185,7 @@ li a:hover {
 @media only screen and (max-height: 700px) {
   .about-wrapper {
     position: relative;
-    width: 50%;
+    width: 90%;
     top: 1em;
   }
 }
