@@ -11,8 +11,8 @@ const Navbar = () => {
                 <Link to="/skills">skills</Link>
                 {/* <a href="/experience">experience</a> */}
                 <a href="#resume">resume</a>
-                <a href="https://github.com/AmreshSinha">github</a>
-                <a href="https://linkedin.com/in/aps-amresh">linkedin</a>
+                <a href="https://github.com/AmreshSinha" target="_blank">github</a>
+                <a href="https://linkedin.com/in/aps-amresh" target="_blank">linkedin</a>
             </div>
         </header>
     );
