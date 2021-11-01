@@ -532,6 +532,27 @@ img.other-card-img {
 
 }
 
+@media only screen and (max-height: 700px) {
+  .skills-wrapper {
+    position: relative;
+    width: 60%;
+    height: fit-content;
+    top: 1.25em;
+  }
+
+  .skills {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    flex-direction: column;
+  }
+
+  .skills-item {
+    max-width: fit-content;
+    width: fit-content;
+  }
+
+}
+
 .lds-circle {
   position: absolute;
   top: 50%;
