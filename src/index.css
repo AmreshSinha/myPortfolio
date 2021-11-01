@@ -182,6 +182,14 @@ li a:hover {
   }
 }
 
+@media only screen and (max-height: 700px) {
+  .about-wrapper {
+    position: relative;
+    width: 50%;
+    top: 1em;
+  }
+}
+
 .showcase-wrapper {
   width: 60%;
   height: fit-content;
