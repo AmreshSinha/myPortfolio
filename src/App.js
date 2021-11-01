@@ -1,4 +1,5 @@
 import React, { Suspense } from "react";
+import { Helmet } from "react-helmet";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 // Components
@@ -14,19 +15,35 @@ function App() {
       <Navbar />
       <Switch>
         <Route path="/" exact>
+          <Helmet>
+            <title>AmreshSinha | Home</title>
+            <meta name="AmreshSinha" content="Amresh's Portfolio" />
+          </Helmet>
           <Landing />
         </Route>
         <Route path="/about">
+          <Helmet>
+            <title>AmreshSinha | About</title>
+            <meta name="AmreshSinha" content="Amresh's Portfolio" />
+          </Helmet>
           <Suspense fallback={<div class="lds-circle"><div></div></div>}>
             <About />
           </Suspense>
         </Route>
         <Route path="/showcase">
+          <Helmet>
+            <title>AmreshSinha | Showcase</title>
+            <meta name="AmreshSinha" content="Amresh's Portfolio" />
+          </Helmet>
           <Suspense fallback={<div Style="color: white">Loading...</div>}>
             <Showcase />
           </Suspense>
         </Route>
         <Route path="/skills" exact>
+          <Helmet>
+            <title>AmreshSinha | Skills</title>
+            <meta name="AmreshSinha" content="Amresh's Portfolio" />
+          </Helmet>
           <Suspense fallback={<div Style="color: white">Loading...</div>}>
             <Skills />
           </Suspense>
