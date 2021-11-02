@@ -36,7 +36,7 @@ function App() {
             <title>AmreshSinha | Showcase</title>
             <meta name="AmreshSinha" content="Amresh's Portfolio" />
           </Helmet>
-          <Suspense fallback={<div Style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white">Loading...</div>}>
+          <Suspense fallback={<NyanCatLoader />}>
             <Showcase />
           </Suspense>
         </Route>
@@ -45,7 +45,7 @@ function App() {
             <title>AmreshSinha | Skills</title>
             <meta name="AmreshSinha" content="Amresh's Portfolio" />
           </Helmet>
-          <Suspense fallback={<div Style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white">Loading...</div>}>
+          <Suspense fallback={<NyanCatLoader />}>
             <Skills />
           </Suspense>
         </Route>
