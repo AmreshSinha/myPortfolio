@@ -1,4 +1,5 @@
 import React from "react";
+import BootstrapIcon from "../../bootstrap.svg";
 
 const Skills = () => {
     return (
@@ -59,7 +60,7 @@ const Skills = () => {
                                 <img className="framework-card-img" src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" />
                             </div>
                             <div className="framework-card">
-                                <img className="bootstrap framework-card-img" src="https://icons.getbootstrap.com/assets/icons/bootstrap.svg" />
+                                <img className="bootstrap framework-card-img" src={BootstrapIcon} />
                             </div>
                         </div>
                     </div>
