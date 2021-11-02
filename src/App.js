@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 // Components
 import Navbar from "./Components/Navbar";
 import Landing from "./Components/Landing";
+import NyanCatLoader from "./Components/NyanCatLoader";
 const About = React.lazy(() => import('./Components/About'));
 const Showcase = React.lazy(() => import("./Components/Showcase"));
 const Skills = React.lazy(() => import("./Components/Skills"));
@@ -26,7 +27,7 @@ function App() {
             <title>AmreshSinha | About</title>
             <meta name="AmreshSinha" content="Amresh's Portfolio" />
           </Helmet>
-          <Suspense fallback={<div class="lds-circle"><div></div></div>}>
+          <Suspense fallback={<NyanCatLoader />}>
             <About />
           </Suspense>
         </Route>
