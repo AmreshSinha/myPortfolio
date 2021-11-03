@@ -59,7 +59,7 @@ const Skills = () => {
                                 <img className="flask framework-card-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" />
                             </div>
                             <div className="framework-card">
-                                <img className="framework-card-img" src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" />
+                                <img className="opencv framework-card-img" src="https://cdn.jsdelivr.net/npm/simple-icons/icons/opencv.svg" />
                             </div>
                             <div className="framework-card">
                                 <img className="bootstrap framework-card-img" src={BootstrapIcon} />
@@ -76,13 +76,13 @@ const Skills = () => {
                                 <img className="other-card-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
                             </div>
                             <div className="other-card">
-                                <img className="heroku other-card-img" src="https://brand.heroku.com/static/media/heroku-logo-stroke-black.bc730a06.svg" />
+                                <img className="heroku other-card-img" src="https://cdn.jsdelivr.net/npm/simple-icons/icons/heroku.svg" />
                             </div>
                             <div className="other-card">
                                 <img className="other-card-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
                             </div>
                             <div className="other-card">
-                                <img className="other-card-img" src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" />
+                                <img className="postman other-card-img" src="https://cdn.jsdelivr.net/npm/simple-icons/icons/postman.svg" />
                             </div>
                         </div>
                     </div>

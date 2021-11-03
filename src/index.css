@@ -459,6 +459,14 @@ h2.skills-frameworks {
   filter: invert(100%);
 }
 
+.opencv {
+  filter: invert(100%);
+}
+
+.postman {
+  filter: invert(58%) sepia(47%) saturate(4061%) hue-rotate(336deg) brightness(101%) contrast(102%);
+}
+
 h2.skills-technologies {
   color: #f08a5d;
   font-size: 1rem;
@@ -468,7 +476,7 @@ h2.skills-technologies {
 }
 
 .heroku {
-  filter: invert(100%);
+  filter: invert(13%) sepia(35%) saturate(7379%) hue-rotate(262deg) brightness(91%) contrast(129%);
 }
 
 .skills-frameworks-list {
