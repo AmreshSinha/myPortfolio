@@ -7,7 +7,7 @@ const Skills = () => {
             <div className="skills">
                 <div className="skills-item skills-text">
                     <h2 className="skills-heading gradient">Skills</h2>
-                    <p className="skills-para">I love the way technology is changing everyday (so do I am changin' too!).
+                    <p className="skills-para">I have a strong interest in the field of Web Development, AI/ML and I am constantly learning new things. I am a self-taught developer and I am always looking for new ways to improve myself.
                     <br /><br />
                     I have been working in Python, C, C++, Html, CSS, JS, Node, React and Express from some time now.
                     <br /><br />
@@ -15,7 +15,9 @@ const Skills = () => {
                     <br /><br />
                     Apart from above, I have a lot of affection to DevOps too!
                     <br /><br />
-                    I love helping others with their Server, Containers, or any other DevOps related help.<br /><br />Feel free to ping me anytime ;) I will be more than happy!</p>
+                    I love helping others with their Server, Containers, or any other DevOps related help.
+                    <br /><br />
+                    Feel free to ping me anytime ;) I will be more than happy!</p>
                 </div>
                 <div className="skills-item skills-info">
                     <div className="skills-info-languages">
