@@ -28,7 +28,7 @@ const Showcase = () => {
                 </div>
                 <div className="showcase-card">
                     <div className="showcase-info">
-                        <div className="role">Standalone Project</div>
+                        <div className="role">Maintainer</div>
                         <div className="heading">Fake Speedtest Generator</div>
                         <div className="project-dates">Sep 2018 - Present</div>
                         <div className="tags">
