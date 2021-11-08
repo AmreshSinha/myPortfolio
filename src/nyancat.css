@@ -876,6 +876,13 @@
 
 }
 
+@media screen and (max-width: 1050px) {
+    #mainContainer {
+        width: 50%;
+        background: #222831;
+    }
+}
+
 #description {
     position: absolute;
     top: 350px;
