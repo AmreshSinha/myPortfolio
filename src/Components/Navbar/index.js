@@ -11,8 +11,7 @@ const Navbar = () => {
                 <Link to="/skills">skills</Link>
                 {/* <a href="/experience">experience</a> */}
                 <a href="#resume">résumé</a>
-                <a href="https://github.com/AmreshSinha" target="_blank">github</a>
-                <a href="https://linkedin.com/in/aps-amresh" target="_blank">linkedin</a>
+                <a href="https://links.apsweb.design" target="_blank">links</a>
             </div>
         </header>
     );
