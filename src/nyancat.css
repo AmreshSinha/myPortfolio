@@ -878,7 +878,8 @@
 
 @media screen and (max-width: 1050px) {
     #mainContainer {
-        width: 80%;
+        width: 100%;
+        height: 50%;
         background: #222831;
     }
 }
